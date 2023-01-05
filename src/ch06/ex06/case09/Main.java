@@ -18,5 +18,7 @@ public class Main {
 		chrome.out();
 		// chrome.in();
 		// Chrome.in();
+		chrome.play();
+		Chrome.play();
 	}
 }
