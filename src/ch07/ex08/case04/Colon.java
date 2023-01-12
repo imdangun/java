@@ -54,3 +54,6 @@ public class Colon {
 	}
 	
 }
+/*
+:: method reference expression
+*/
