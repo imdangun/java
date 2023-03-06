@@ -25,11 +25,11 @@ public class C05String {
 		System.out.println(color);
 		
 		String type = "int";
+		int val = 1;
 		String code = """
-				public void print(""" + type + """
-				 val)
-				 System.out.println(val);
-				)""";
+				public void print(%s a)
+				 	System.out.println(a + %d);
+				)""".formatted(type, 1);
 		System.out.println(code);
 		
 		code = """
